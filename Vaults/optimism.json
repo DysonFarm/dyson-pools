@@ -1,0 +1,107 @@
+{
+  "addresses": {
+    "USDC": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+    "WETH": "0x4200000000000000000000000000000000000006",
+    "OP": "0x4200000000000000000000000000000000000042"
+  },
+  "optimismUniV3Vaults": [
+    {
+      "id": "Dyson-opti-UniV3-WETH/USDC",
+      "name": "WETH/USDC Uniswap V3",
+      "walletToken": [
+        {
+          "address": "0x4200000000000000000000000000000000000006",
+          "name": "WETH",
+          "symbol": "WETH",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        },
+        {
+          "address": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+          "name": "USDC",
+          "symbol": "USDC",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 6,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0x586e2F2CFBE1c6A072aD1D290af8823F0FedF888",
+        "name": "optiDysonUniV3WETHUSDC5BpsVault",
+        "symbol": "",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0x586e2F2CFBE1c6A072aD1D290af8823F0FedF888",
+      "strategyAddress": "0xf3Cb6E3EdFee802B9BAAbabe693861C52A0B580D",
+      "poolFromStrategyAddress": "0x85149247691df622eaf1a8bd0cafd40bc45154a9",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "dyson-opti-uniV3-WETH/USDC",
+      "status": "active",
+      "platform": "uniswapv3",
+      "poolComposition": ["WETH", "USDC"],
+      "extra": {
+        "addLiquidityUrl": "https://app.uniswap.org/#/swap",
+        "buyTokenUrl": "https://app.uniswap.org/#/swap",
+        "strategyDescription": "This is a strategy for using a Uniswap-V3 liquidity pool made up of WETH and USDC tokens. By focusing on certain price ranges, this approach can generate more trading fees for liquidity providers (LPs) compared to other types of liquidity pools. In this strategy, the deposit token is staked in the Uniswap V3 protocol to earn WETH and USDC rewards. These rewards are then sold to buy more LP tokens."
+      }
+    },
+    {
+      "id": "Dyson-opti-UniV3-WETH/OP",
+      "name": "WETH/OP Uniswap V3",
+      "walletToken": [
+        {
+          "address": "0x4200000000000000000000000000000000000006",
+          "name": "WETH",
+          "symbol": "WETH",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        },
+        {
+          "address": "0x4200000000000000000000000000000000000042",
+          "name": "OP",
+          "symbol": "OP",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0xDF8E9fF8b495f10FA42F0c0Ec01627278E944202",
+        "name": "optiDysonUniV3WETHOP30BpsVault",
+        "symbol": "",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0xDF8E9fF8b495f10FA42F0c0Ec01627278E944202",
+      "strategyAddress": "0x1d3Ae2a02fd0A9E1A4Ac83788B3066A1a31fB77e",
+      "poolFromStrategyAddress": "0x68f5c0a2de713a54991e01858fd27a3832401849",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "dyson-opti-uniV3-WETH/OP",
+      "status": "active",
+      "platform": "uniswapv3",
+      "poolComposition": ["WETH", "OP"],
+      "extra": {
+        "addLiquidityUrl": "https://app.uniswap.org/#/swap",
+        "buyTokenUrl": "https://app.uniswap.org/#/swap",
+        "strategyDescription": "This is a strategy for using a Uniswap-V3 liquidity pool made up of WETH and OP tokens. By focusing on certain price ranges, this approach can generate more trading fees for liquidity providers (LPs) compared to other types of liquidity pools. In this strategy, the deposit token is staked in the Uniswap V3 protocol to earn WETH and OP rewards. These rewards are then sold to buy more LP tokens."
+      }
+    }
+  ]
+}

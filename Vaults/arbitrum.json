@@ -1,0 +1,960 @@
+{
+  "addresses": {
+    "USDT": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+    "USDC": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+    "WBTC": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+    "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+    "GMX": "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a"
+  },
+  "arbitrumUniV3Vaults": [
+    {
+      "id": "Dyson-arb-UniV3-WETH/GMX",
+      "name": "WETH/GMX Uniswap V3",
+      "walletToken": [
+        {
+          "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+          "name": "WETH",
+          "symbol": "WETH",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        },
+        {
+          "address": "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a",
+          "name": "GMX",
+          "symbol": "GMX",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0x6C7e1caF8AF916B7f0a493Dc89148Bb3f813d6d1",
+        "name": "arbiDysonUniV3WETHGMX30BpsVault",
+        "symbol": "",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0x6C7e1caF8AF916B7f0a493Dc89148Bb3f813d6d1",
+      "strategyAddress": "0xb380f4E591fEc6A2646079DC4a72F0110cDF8EFa",
+      "poolFromStrategyAddress": "0x1aeedd3727a6431b8f070c0afaa81cc74f273882",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "Dyson-arb-UniV3-WETH/GMX",
+      "status": "active",
+      "platform": "uniswapv3",
+      "poolComposition": ["WETH", "GMX"],
+      "extra": {
+        "addLiquidityUrl": "https://app.uniswap.org/#/swap",
+        "buyTokenUrl": "https://app.uniswap.org/#/swap",
+        "strategyDescription": "This is a strategy for using a Uniswap-V3 liquidity pool made up of WETH and GMX tokens. By focusing on certain price ranges, this approach can generate more trading fees for liquidity providers (LPs) compared to other types of liquidity pools. In this strategy, the deposit token is staked in the Uniswap V3 protocol to earn WETH and GMX rewards. These rewards are then sold to buy more LP tokens."
+      }
+    },
+    {
+      "id": "Dyson-arb-UniV3-WETH/USDT",
+      "name": "WETH/USDT Uniswap V3",
+      "walletToken": [
+        {
+          "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+          "name": "WETH",
+          "symbol": "WETH",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        },
+        {
+          "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+          "name": "USDT",
+          "symbol": "USDT",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 6,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0x9c9790C82859DB18ce974FA5e9bD2927C845B1D4",
+        "name": "arbiDysonUniV3WETHUSDT5BpsVault",
+        "symbol": "",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0x9c9790C82859DB18ce974FA5e9bD2927C845B1D4",
+      "strategyAddress": "0xe9287b61b27c1FA37EECcaF20a04871d6fe53903",
+      "poolFromStrategyAddress": "0x641c00a822e8b671738d32a431a4fb6074e5c79d",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "dyson-arb-uniV3-WETH/USDT",
+      "status": "active",
+      "platform": "uniswapv3",
+      "poolComposition": ["WETH", "USDT"],
+      "extra": {
+        "addLiquidityUrl": "https://app.uniswap.org/#/swap",
+        "buyTokenUrl": "https://app.uniswap.org/#/swap",
+        "strategyDescription": "This is a strategy for using a Uniswap-V3 liquidity pool made up of WETH and USDT tokens. By focusing on certain price ranges, this approach can generate more trading fees for liquidity providers (LPs) compared to other types of liquidity pools. In this strategy, the deposit token is staked in the Uniswap V3 protocol to earn WETH and USDT rewards. These rewards are then sold to buy more LP tokens."
+      }
+    },
+    {
+      "id": "Dyson-arb-UniV3-WETH/USDC30bps",
+      "name": "WETH/USDC Uniswap V3 30 BPS",
+      "walletToken": [
+        {
+          "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+          "name": "WETH",
+          "symbol": "WETH",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        },
+        {
+          "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+          "name": "USDC",
+          "symbol": "USDC",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 6,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0xb5A3e0F1C9B3b9B8c478EDB8c62043b2beB7eDF1",
+        "name": "arbiDysonUniV3WETHUSDC30bpsVault",
+        "symbol": "",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0xb5A3e0F1C9B3b9B8c478EDB8c62043b2beB7eDF1",
+      "strategyAddress": "0x4458b4AaDCf376FF442f7e820E62bc90C00a45A5",
+      "poolFromStrategyAddress": "0x17c14d2c404d167802b16c450d3c99f88f2c4f4d",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "dyson-arb-uniV3-WETH/USDC30bps",
+      "status": "active",
+      "platform": "uniswapv3",
+      "poolComposition": ["WETH", "USDC"],
+      "extra": {
+        "addLiquidityUrl": "https://app.uniswap.org/#/swap",
+        "buyTokenUrl": "https://app.uniswap.org/#/swap",
+        "strategyDescription": "This is a strategy for using a Uniswap-V3 liquidity pool made up of WETH and USDC tokens. By focusing on certain price ranges, this approach can generate more trading fees for liquidity providers (LPs) compared to other types of liquidity pools. In this strategy, the deposit token is staked in the Uniswap V3 protocol to earn WETH and USDC rewards. These rewards are then sold to buy more LP tokens."
+      }
+    },
+    {
+      "id": "Dyson-arb-UniV3-USDT/USDC5bps",
+      "name": "USDT/USDC Uniswap V3 5bps",
+      "walletToken": [
+        {
+          "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+          "name": "USDT",
+          "symbol": "USDT",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 6,
+          "allowance": "0"
+        },
+        {
+          "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+          "name": "USDC",
+          "symbol": "USDC",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 6,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0x17831B2d149BD43fbdE0EB1b727F86aBBd5053fD",
+        "name": "arbiDysonUniV3USDTUSDC5bpsVault",
+        "symbol": "",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0x17831B2d149BD43fbdE0EB1b727F86aBBd5053fD",
+      "strategyAddress": "0xAAaF1E4795D23923865e88413C65f7c8a366C18f",
+      "poolFromStrategyAddress": "0x13398e27a21be1218b6900cbedf677571df42a48",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "dyson-arb-uniV3-USDT/USDC5bps",
+      "status": "active",
+      "platform": "uniswapv3",
+      "poolComposition": ["USDT", "USDC"],
+      "extra": {
+        "addLiquidityUrl": "https://app.uniswap.org/#/swap",
+        "buyTokenUrl": "https://app.uniswap.org/#/swap",
+        "strategyDescription": "This is a strategy for using a Uniswap-V3 liquidity pool made up of USDT and USDC tokens. By focusing on certain price ranges, this approach can generate more trading fees for liquidity providers (LPs) compared to other types of liquidity pools. In this strategy, the deposit token is staked in the Uniswap V3 protocol to earn USDT and USDC rewards. These rewards are then sold to buy more LP tokens."
+      }
+    },
+    {
+      "id": "Dyson-arb-UniV3-WBTC/WETH",
+      "name": "WBTC/WETH Uniswap V3",
+      "walletToken": [
+        {
+          "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+          "name": "WBTC",
+          "symbol": "WBTC",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 8,
+          "allowance": "0"
+        },
+        {
+          "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+          "name": "WETH",
+          "symbol": "WETH",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0xb33775911fc0375538c2D90733f749AD8A203e00",
+        "name": "arbiDysonUniV3WETHUSDC30bpsVault",
+        "symbol": "",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0xb33775911fc0375538c2D90733f749AD8A203e00",
+      "strategyAddress": "0x74dc3f6D138e9A8f38dF88BD9153075F42bFb205",
+      "poolFromStrategyAddress": "0x2f5e87c9312fa29aed5c179e456625d79015299c",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "dyson-arb-uniV3-WBTC/WETH",
+      "status": "active",
+      "platform": "uniswapv3",
+      "poolComposition": ["WBTC", "WETH"],
+      "extra": {
+        "addLiquidityUrl": "https://app.uniswap.org/#/swap",
+        "buyTokenUrl": "https://app.uniswap.org/#/swap",
+        "strategyDescription": "This is a strategy for using a Uniswap-V3 liquidity pool made up of WBTC and WETH tokens. By focusing on certain price ranges, this approach can generate more trading fees for liquidity providers (LPs) compared to other types of liquidity pools. In this strategy, the deposit token is staked in the Uniswap V3 protocol to earn WBTC and WETH rewards. These rewards are then sold to buy more LP tokens."
+      }
+    },
+    {
+      "id": "Dyson-arb-UniV3-WETH/USDC5bps",
+      "name": "WETH/USDC Uniswap V3 5 BPS",
+      "walletToken": [
+        {
+          "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+          "name": "WETH",
+          "symbol": "WETH",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        },
+        {
+          "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+          "name": "USDC",
+          "symbol": "USDC",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 6,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0x505A98d9aFda51D3dB779e2aA3941CbFF429BE7a",
+        "name": "arbiDysonUniV3WETHUSDC5bpsVault",
+        "symbol": "",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0x505A98d9aFda51D3dB779e2aA3941CbFF429BE7a",
+      "strategyAddress": "0x04D9C66B4922A4BAe4aba29D2f2548a578853164",
+      "poolFromStrategyAddress": "0xc31e54c7a869b9fcbecc14363cf510d1c41fa443",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "dyson-arb-uniV3-WETH/USDC",
+      "status": "active",
+      "platform": "uniswapv3",
+      "poolComposition": ["WETH", "USDC"],
+      "extra": {
+        "addLiquidityUrl": "https://app.uniswap.org/#/swap",
+        "buyTokenUrl": "https://app.uniswap.org/#/swap",
+        "strategyDescription": "This is a strategy for using a Uniswap-V3 liquidity pool made up of WETH and USDC tokens. By focusing on certain price ranges, this approach can generate more trading fees for liquidity providers (LPs) compared to other types of liquidity pools. In this strategy, the deposit token is staked in the Uniswap V3 protocol to earn WETH and USDC rewards. These rewards are then sold to buy more LP tokens."
+      }
+    }
+  ],
+  "arbitrumStrategyVaults": [
+    {
+      "id": "solidlizard-usdt-usdc",
+      "name": "USDT/USDC SolidLizard",
+      "walletToken": [
+        {
+          "address": "0xC9dF93497B1852552F2200701cE58C236cC0378C",
+          "name": "StableV1 AMM - USDT/USDC",
+          "symbol": "sAMM-USDT/USDC",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0xaeD0E3CEC057Ca82cd562c358a91aEdd2510eCEc",
+        "name": "StableV1 AMM - USDT/USDC",
+        "symbol": "sAMM-USDT/USDC",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0xaeD0E3CEC057Ca82cd562c358a91aEdd2510eCEc",
+      "strategyAddress": "0x1cC6cC16c4B8D43668198829B78d9C80873D2492",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "solidlizard-usdt-usdc",
+      "status": "active",
+      "platform": "solidlizard",
+      "poolComposition": ["USDT", "USDC"],
+      "extra": {
+        "addLiquidityUrl": "https://solidlizard.finance/liquidity/0xc9df93497b1852552f2200701ce58c236cc0378c",
+        "buyTokenUrl": "https://solidlizard.finance/liquidity/0xc9df93497b1852552f2200701ce58c236cc0378c",
+        "strategyDescription": "This strategy harvests rewards and compounds them over time, exposing depositors to a higher APY. The compounding process is automated & gas fees are socialised between vault depositors."
+      }
+    },
+    {
+      "id": "solidlizard-ageur-usdc",
+      "name": "agEUR/USDC SolidLizard",
+      "walletToken": [
+        {
+          "address": "0x5cd95bc186E41419e6B48a0153833C8105781292",
+          "name": "StableV1 AMM - agEUR/USDC",
+          "symbol": "sAMM-agEUR/USDC",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0xe5103Cc276370dD4012DAA6304C3f11187da3f85",
+        "name": "StableV1 AMM - agEUR/USDC",
+        "symbol": "sAMM-agEUR/USDC",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0xe5103Cc276370dD4012DAA6304C3f11187da3f85",
+      "strategyAddress": "0x11f958d065Bc19DDEcd2a5C3E1399ef5866db978",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "solidlizard-ageur-usdc",
+      "status": "active",
+      "platform": "solidlizard",
+      "poolComposition": ["AGEUR", "USDC"],
+      "extra": {
+        "addLiquidityUrl": "https://solidlizard.finance/liquidity/0x5cd95bc186E41419e6B48a0153833C8105781292",
+        "buyTokenUrl": "https://solidlizard.finance/liquidity/0x5cd95bc186E41419e6B48a0153833C8105781292",
+        "strategyDescription": "This strategy harvests rewards and compounds them over time, exposing depositors to a higher APY. The compounding process is automated & gas fees are socialised between vault depositors."
+      }
+    },
+    {
+      "id": "solidlizard-lusd-usdt",
+      "name": "LUSD/USDT SolidLizard",
+      "walletToken": [
+        {
+          "address": "0x76306492d938ae46df657c006e642b4d31dc6bd9",
+          "name": "StableV1 AMM - LUSD/USDT",
+          "symbol": "sAMM-LUSDT/USDT",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0xC2a16f7164B98CD6AcFFbcBd46defc6AA3B95A59",
+        "name": "StableV1 AMM - LUSD/USDT",
+        "symbol": "sAMM-LUSDT/USDT",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0xC2a16f7164B98CD6AcFFbcBd46defc6AA3B95A59",
+      "strategyAddress": "0x8e120a16AbFF38b329D3dAd389cd9f6EEaFaCdfF",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "solidlizard-lusd-usdt",
+      "status": "active",
+      "platform": "solidlizard",
+      "poolComposition": ["LUSD", "USDT"],
+      "extra": {
+        "addLiquidityUrl": "https://solidlizard.finance/liquidity/0x76306492d938ae46df657c006e642b4d31dc6bd9",
+        "buyTokenUrl": "https://solidlizard.finance/liquidity/0x76306492d938ae46df657c006e642b4d31dc6bd9",
+        "strategyDescription": "This strategy harvests rewards and compounds them over time, exposing depositors to a higher APY. The compounding process is automated & gas fees are socialised between vault depositors."
+      }
+    },
+    {
+      "id": "solidlizard-lusd-usdc",
+      "name": "LUSD/USDC SolidLizard",
+      "walletToken": [
+        {
+          "address": "0xB1E9b823295B3C69ac651C05D987B67189ff20AD",
+          "name": "StableV1 AMM - LUSD/USDC",
+          "symbol": "sAMM-LUSDT/USDC",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0xaddB5609d0524d5FB65E626dDD135F5798d1748A",
+        "name": "StableV1 AMM - LUSD/USDC",
+        "symbol": "sAMM-LUSDT/USDC",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0xaddB5609d0524d5FB65E626dDD135F5798d1748A",
+      "strategyAddress": "0x208c8fe51d5BDF014E2303f87Eb92adFd52E2259",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "solidlizard-lusd-usdc",
+      "status": "active",
+      "platform": "solidlizard",
+      "poolComposition": ["LUSD", "USDC"],
+      "extra": {
+        "addLiquidityUrl": "https://solidlizard.finance/liquidity/0xB1E9b823295B3C69ac651C05D987B67189ff20AD",
+        "buyTokenUrl": "https://solidlizard.finance/liquidity/0xB1E9b823295B3C69ac651C05D987B67189ff20AD",
+        "strategyDescription": "This strategy harvests rewards and compounds them over time, exposing depositors to a higher APY. The compounding process is automated & gas fees are socialised between vault depositors."
+      }
+    },
+    {
+      "id": "solidlizard-usdp-usdc",
+      "name": "USD+/USDC SolidLizard",
+      "walletToken": [
+        {
+          "address": "0x219fbc3ed20152a9501dDAA47F2a8C193E32D0C6",
+          "name": "StableV1 AMM - USD+/USDC",
+          "symbol": "sAMM-USD+/USDC",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0xE42eA4E3EF0dB0023276612b9b243735287F649D",
+        "name": "StableV1 AMM - USD+/USDC",
+        "symbol": "sAMM-USD+/USDC",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0xE42eA4E3EF0dB0023276612b9b243735287F649D",
+      "strategyAddress": "0x17b0Df3Dc314F4040Ef0d0A17982a316de1eCFca",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "solidlizard-usdp-usdc",
+      "status": "active",
+      "platform": "solidlizard",
+      "poolComposition": ["USD+", "USDC"],
+      "extra": {
+        "addLiquidityUrl": "https://solidlizard.finance/liquidity/0x219fbc3ed20152a9501dDAA47F2a8C193E32D0C6",
+        "buyTokenUrl": "https://solidlizard.finance/liquidity/0x219fbc3ed20152a9501dDAA47F2a8C193E32D0C6",
+        "strategyDescription": "This strategy harvests rewards and compounds them over time, exposing depositors to a higher APY. The compounding process is automated & gas fees are socialised between vault depositors."
+      }
+    },
+    {
+      "id": "solidlizard-etsgamma-usdp",
+      "name": "USD+/ETS GAMMA SolidLizard",
+      "walletToken": [
+        {
+          "address": "0x97e5f60fA17816011039B908C19Fa4B43DE73731",
+          "name": "StableV1 AMM - USD+/ETS Gamma",
+          "symbol": "sAMM-USD+/ETSGAMMA",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0x400464D212853cf503D2bBE352A2ae068D74154D",
+        "name": "Dyson SolidLizard USD+/ETS Gamma Vault",
+        "symbol": "DysonArbiSolidLizardUSDPETSGammaVault",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0x400464D212853cf503D2bBE352A2ae068D74154D",
+      "strategyAddress": "0x990E741104c6646705506ADFE566d3bf5299A756",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "solidlizard-etsgamma-usdp",
+      "status": "active",
+      "platform": "solidlizard",
+      "poolComposition": ["USD+", "ETSGAMMA"],
+      "extra": {
+        "addLiquidityUrl": "https://solidlizard.finance/liquidity/0x97e5f60fA17816011039B908C19Fa4B43DE73731",
+        "buyTokenUrl": "https://solidlizard.finance/liquidity/0x97e5f60fA17816011039B908C19Fa4B43DE73731",
+        "strategyDescription": "This strategy harvests rewards and compounds them over time, exposing depositors to a higher APY. The compounding process is automated & gas fees are socialised between vault depositors."
+      }
+    },
+    {
+      "id": "solidlizard-mai-usdc",
+      "name": "MAI/USDC SolidLizard",
+      "walletToken": [
+        {
+          "address": "0xb2e5cbe39c92afb14cb8dbadcc138ea4a8614bae",
+          "name": "StableV1 AMM - MAI/USDC Gamma",
+          "symbol": "sAMM-MAI/USDC",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0xc8C8EB3C3e8930EC3Be0EE1C7F96Cf56ed9de0f9",
+        "name": "Dyson SolidLizard MAI/USDC Gamma Vault",
+        "symbol": "DysonArbiSolidLizardMAIUSDCVault",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0xc8C8EB3C3e8930EC3Be0EE1C7F96Cf56ed9de0f9",
+      "strategyAddress": "0x60528a74ae17510f1171D9c6eBE344839d8e95C7",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "solidlizard-mai-usdc",
+      "status": "active",
+      "platform": "solidlizard",
+      "poolComposition": ["MAI", "USDC"],
+      "extra": {
+        "addLiquidityUrl": "https://solidlizard.finance/liquidity/0xb2e5cbe39c92afb14cb8dbadcc138ea4a8614bae",
+        "buyTokenUrl": "https://solidlizard.finance/liquidity/0xb2e5cbe39c92afb14cb8dbadcc138ea4a8614bae",
+        "strategyDescription": "This strategy harvests rewards and compounds them over time, exposing depositors to a higher APY. The compounding process is automated & gas fees are socialised between vault depositors."
+      }
+    },
+    {
+      "id": "solidlizard-dola-usdc",
+      "name": "DOLA/USDC SolidLizard",
+      "walletToken": [
+        {
+          "address": "0xdf58c5f73ea1c9003abfeb9194eb817d256cb3ad",
+          "name": "StableV1 AMM - DOLA/USDC Gamma",
+          "symbol": "sAMM-DOLA/USDC",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0x49405ac1eAb6A420e046f1c715B679E67d22a565",
+        "name": "Dyson SolidLizard DOLA/USDC Gamma Vault",
+        "symbol": "DysonArbiSolidLizardDOLAUSDCVault",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0x49405ac1eAb6A420e046f1c715B679E67d22a565",
+      "strategyAddress": "0x60528a74ae17510f1171D9c6eBE344839d8e95C7",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "solidlizard-dola-usdc",
+      "status": "active",
+      "platform": "solidlizard",
+      "poolComposition": ["DOLA", "USDC"],
+      "extra": {
+        "addLiquidityUrl": "https://solidlizard.finance/liquidity/0xb2e5cbe39c92afb14cb8dbadcc138ea4a8614bae",
+        "buyTokenUrl": "https://solidlizard.finance/liquidity/0xb2e5cbe39c92afb14cb8dbadcc138ea4a8614bae",
+        "strategyDescription": "This strategy harvests rewards and compounds them over time, exposing depositors to a higher APY. The compounding process is automated & gas fees are socialised between vault depositors."
+      }
+    },
+    {
+      "id": "solidlizard-lusd-dai",
+      "name": "LUSD/DAI SolidLizard",
+      "walletToken": [
+        {
+          "address": "0x99fe59026A627e03ff34B9F2FA08bA70d7a703f9",
+          "name": "StableV1 AMM - LUSD/DAI",
+          "symbol": "sAMM-LUSD/DAI",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0xfD9Ab363b0CF270287F61ec3ed7C0FcA50feaF9e",
+        "name": "StableV1 AMM - LUSD/DAI",
+        "symbol": "sAMM-USDT/DAI",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0xfD9Ab363b0CF270287F61ec3ed7C0FcA50feaF9e",
+      "strategyAddress": "0xabcBF9F6323cf14a3cc3B24E2f5e012a9E248055",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "solidlizard-lusd-dai",
+      "status": "active",
+      "withdrawOnly": false,
+      "platform": "solidlizard",
+      "poolComposition": ["LUSD", "DAI"],
+      "extra": {
+        "addLiquidityUrl": "https://solidlizard.finance/liquidity/0x99fe59026A627e03ff34B9F2FA08bA70d7a703f9",
+        "buyTokenUrl": "https://solidlizard.finance/liquidity/0x99fe59026A627e03ff34B9F2FA08bA70d7a703f9",
+        "strategyDescription": "This strategy harvests rewards and compounds them over time, exposing depositors to a higher APY. The compounding process is automated & gas fees are socialised between vault depositors."
+      }
+    },
+    {
+      "id": "solidlizard-weth-usdc",
+      "name": "WETH/USDC SolidLizard",
+      "walletToken": [
+        {
+          "address": "0xe20F93279fF3538b1ad70D11bA160755625e3400",
+          "name": "VolatileV1 AMM - WETH/USDC",
+          "symbol": "sAMM-WETH/USDC",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0x8b1a3f2f31F94BC9fA87C76fE17818cf103c219e",
+        "name": "VolatileV1 AMM - WETH/USDC",
+        "symbol": "sAMM-WETH/USDC",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0x8b1a3f2f31F94BC9fA87C76fE17818cf103c219e",
+      "strategyAddress": "0x699B539E047286516bc47bCE6F3a1A274B1FE6B3",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "solidlizard-weth-usdc",
+      "status": "active",
+      "platform": "solidlizard",
+      "poolComposition": ["WETH", "USDC"],
+      "extra": {
+        "addLiquidityUrl": "https://solidlizard.finance/liquidity/0xe20F93279fF3538b1ad70D11bA160755625e3400",
+        "buyTokenUrl": "https://solidlizard.finance/liquidity/0xe20F93279fF3538b1ad70D11bA160755625e3400",
+        "strategyDescription": "This strategy harvests rewards and compounds them over time, exposing depositors to a higher APY. The compounding process is automated & gas fees are socialised between vault depositors."
+      }
+    },
+    {
+      "id": "solidlizard-dai-usdc",
+      "name": "DAI/USDC SolidLizard",
+      "walletToken": [
+        {
+          "address": "0x07d7f291e731a41d3f0ea4f1ae5b6d920ffb3fe0",
+          "name": "StableV1 AMM - DAI/USDC",
+          "symbol": "sAMM-DAI/USDC",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0x5F159730712119CB399CEE85cE678d317Ee68260",
+        "name": "StableV1 AMM - DAI/USDC",
+        "symbol": "sAMM-DAI/USDC",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0x5F159730712119CB399CEE85cE678d317Ee68260",
+      "strategyAddress": "0x682E7aFc2AFCCa39CbF3e1CC84C146f7857820C5",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "solidlizard-dai-usdc",
+      "status": "active",
+      "platform": "solidlizard",
+      "poolComposition": ["DAI", "USDC"],
+      "extra": {
+        "addLiquidityUrl": "https://solidlizard.finance/liquidity/0x07d7f291e731a41d3f0ea4f1ae5b6d920ffb3fe0",
+        "buyTokenUrl": "https://solidlizard.finance/liquidity/0x07d7f291e731a41d3f0ea4f1ae5b6d920ffb3fe0",
+        "strategyDescription": "This strategy harvests rewards and compounds them over time, exposing depositors to a higher APY. The compounding process is automated & gas fees are socialised between vault depositors."
+      }
+    },
+    {
+      "id": "solidlizard-dai-usdt",
+      "name": "DAI/USDT SolidLizard",
+      "walletToken": [
+        {
+          "address": "0x15b9d20bcaa4f65d9004d2bebac4058445fd5285",
+          "name": "StableV1 AMM - DAI/USDT",
+          "symbol": "sAMM-DAI/USDT",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0xDcfFe790e6eFDa3331b9cDa9d21f1401e25f6353",
+        "name": "StableV1 AMM - DAI/USDT",
+        "symbol": "DysonArbiSolidLizardDAIUSDTVault",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0xDcfFe790e6eFDa3331b9cDa9d21f1401e25f6353",
+      "strategyAddress": "0x471F87254d5E914e6bd6fE4a4BE48Bd3c3c51c5D",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "solidlizard-dai-usdt",
+      "status": "active",
+      "platform": "solidlizard",
+      "poolComposition": ["DAI", "USDT"],
+      "extra": {
+        "addLiquidityUrl": "https://solidlizard.finance/liquidity/0x15b9d20bcaa4f65d9004d2bebac4058445fd5285",
+        "buyTokenUrl": "https://solidlizard.finance/liquidity/0x15b9d20bcaa4f65d9004d2bebac4058445fd5285",
+        "strategyDescription": "This strategy harvests rewards and compounds them over time, exposing depositors to a higher APY. The compounding process is automated & gas fees are socialised between vault depositors."
+      }
+    },
+    {
+      "id": "solidlizard-sliz-spsliz",
+      "name": "SLIZ/spSLIZ SolidLizard",
+      "walletToken": [
+        {
+          "address": "0x6efef13c68959cea3293669f9294d826ccc31058",
+          "name": "Stable AMM - SLIZ/spSLIZ ",
+          "symbol": "sAMM-SLIZ/spSLIZ",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0xCA669649c7ec9F90A57C739C4bDf9d02c9fAFE89",
+        "name": "Dyson SolidLizard SLIZ/spSLIZ ",
+        "symbol": "DysonArbiSolidLizardSLIZspSLIZVault",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0xCA669649c7ec9F90A57C739C4bDf9d02c9fAFE89",
+      "strategyAddress": "0xAcbb5C75C518610F8B7916bf21469C31Eec05941",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "solidlizard-sliz-spsliz",
+      "status": "active",
+      "platform": "solidlizard",
+      "poolComposition": ["SLIZ", "spSLIZ"],
+      "extra": {
+        "addLiquidityUrl": "https://solidlizard.finance/liquidity/0x6efef13c68959cea3293669f9294d826ccc31058",
+        "buyTokenUrl": "https://solidlizard.finance/liquidity/0x6efef13c68959cea3293669f9294d826ccc31058",
+        "strategyDescription": "This strategy harvests rewards and compounds them over time, exposing depositors to a higher APY. The compounding process is automated & gas fees are socialised between vault depositors."
+      }
+    },
+    {
+      "id": "sterling-wsteth-weth",
+      "name": "wstETH/WETH Sterling",
+      "walletToken": [
+        {
+          "address": "0x70717296353f0CDAF1b9A5626455dEf6b6cF63a9",
+          "name": "StableV1 AMM - wstETH/WETH",
+          "symbol": "sAMM-wstETH/WETH",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0x89D5092Eb25B3e75d83128ac7c9c9Ac2eA705ab7",
+        "name": "StableV1 AMM - wstETH/WETH",
+        "symbol": "DysonArbiSterlingWSTETHWETHVault",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0x89D5092Eb25B3e75d83128ac7c9c9Ac2eA705ab7",
+      "strategyAddress": "0xc7953B38F9d962620Ec427F903E894D8533484A7",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "sterling-wsteth-weth",
+      "status": "active",
+      "platform": "sterling",
+      "poolComposition": ["WSTETH", "WETH"],
+      "extra": {
+        "addLiquidityUrl": "https://sterling.finance/liquidity/0x70717296353f0CDAF1b9A5626455dEf6b6cF63a9",
+        "buyTokenUrl": "https://sterling.finance/liquidity/0x70717296353f0CDAF1b9A5626455dEf6b6cF63a9",
+        "strategyDescription": "This strategy harvests rewards and compounds them over time, exposing depositors to a higher APY. The compounding process is automated & gas fees are socialised between vault depositors."
+      }
+    },
+    {
+      "id": "sterling-spstr-str",
+      "name": "spSTR/STR Sterling",
+      "walletToken": [
+        {
+          "address": "0x4db060E95036A4ca1CEAa2D14D9F0bB6BD6FFb52",
+          "name": "StableV1 AMM - spSTR/STR",
+          "symbol": "sAMM-spSTR/STR",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0x6f3A405f8e67ef5f6b1655E13eAb26e344CD4AE0",
+        "name": "StableV1 AMM - spSTR/STR",
+        "symbol": "DysonArbiSterlingSPSTRSTRVault",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0x6f3A405f8e67ef5f6b1655E13eAb26e344CD4AE0",
+      "strategyAddress": "0x034f5a5C09EF189d4d87714CDB6a222a769b13d4",
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "sterling-spstr-str",
+      "status": "active",
+      "platform": "sterling",
+      "poolComposition": ["SPSTR", "STR"],
+      "extra": {
+        "addLiquidityUrl": "https://sterling.finance/liquidity/0x4db060E95036A4ca1CEAa2D14D9F0bB6BD6FFb52",
+        "buyTokenUrl": "https://sterling.finance/liquidity/0x4db060E95036A4ca1CEAa2D14D9F0bB6BD6FFb52",
+        "strategyDescription": "This strategy harvests rewards and compounds them over time, exposing depositors to a higher APY. The compounding process is automated & gas fees are socialised between vault depositors."
+      }
+    }
+  ],
+  "arbitrumMintVaults": [
+    {
+      "id": "mint-sphere-vesliz",
+      "name": "Mint spSLIZ",
+      "walletToken": [
+        {
+          "address": "0x463913d3a3d3d291667d53b8325c598eb88d3b0e",
+          "name": "SLIZ",
+          "symbol": "SLIZ",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0x5e14aa6dd1606e789be9de8ded0b78b36d1fa4a3",
+        "name": "Sphere veSLIZ Staker",
+        "symbol": "spSLIZ",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0x5e14aa6dd1606e789be9de8ded0b78b36d1fa4a3",
+      "strategyAddress": "",
+      "bypassPeg": false,
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "spsliz",
+      "status": "active",
+      "platform": "dyson",
+      "poolComposition": ["SLIZ"],
+      "extra": {
+        "addLiquidityUrl": "https://solidlizard.finance/swap",
+        "buyTokenUrl": "https://solidlizard.finance/swap",
+        "sellTokenUrl": "https://solidlizard.finance/swap",
+        "strategyDescription": "This strategy harvests rewards and compounds them over time, exposing depositors to a higher APY. The compounding process is automated & gas fees are socialised between vault depositors."
+      }
+    },
+    {
+      "id": "mint-sphere-vestr",
+      "name": "Mint spSTR",
+      "walletToken": [
+        {
+          "address": "0x5db7b150c5f38c5f5db11dcbdb885028fcc51d68",
+          "name": "STR",
+          "symbol": "STR",
+          "image": "",
+          "tokenAmount": "0",
+          "USDBalance": "0.00",
+          "decimals": 18,
+          "allowance": "0"
+        }
+      ],
+      "depositedToken": {
+        "address": "0x3b443e9b9b7f340c7b1417abfdc64132341873d4",
+        "name": "Sphere veSTR Staker",
+        "symbol": "spSTR",
+        "image": "",
+        "tokenAmount": "0",
+        "USDBalance": "0.00",
+        "decimals": 18,
+        "allowance": "0"
+      },
+      "vaultAddress": "0x3b443e9b9b7f340c7b1417abfdc64132341873d4",
+      "strategyAddress": "",
+      "bypassPeg": true,
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+      "oracleId": "spstr",
+      "status": "active",
+      "platform": "dyson",
+      "poolComposition": ["STR"],
+      "extra": {
+        "addLiquidityUrl": "https://www.sterling.finance/liquidity",
+        "buyTokenUrl": "https://www.sterling.finance/swap",
+        "sellTokenUrl": "https://www.sterling.finance/swap",
+        "strategyDescription": "This strategy harvests rewards and compounds them over time, exposing depositors to a higher APY. The compounding process is automated & gas fees are socialised between vault depositors."
+      }
+    }
+  ]
+}
